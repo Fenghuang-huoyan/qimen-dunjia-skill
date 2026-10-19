@@ -4,7 +4,7 @@
 
 > 把《奇门遁甲笔记》蒸馏成 **211 张知识卡**，再用一份 **关系规则表（Ontology）** 把卡与卡之间怎么挂、起断局按什么顺序，写清楚。装进支持 Skills 的 Agent 后，可查概念、可跟步骤、跨卡问题先读关系层。
 
-![License](https://img.shields.io/badge/license-learning-lightgrey.svg?style=flat-square)
+![License](https://img.shields.io/badge/license-CC%20BY--NC%204.0-lightgrey.svg?style=flat-square)
 ![Cards](https://img.shields.io/badge/knowledge%20cards-211-2e6b4f.svg?style=flat-square)
 ![Base](https://img.shields.io/badge/Ontology-精简底座-c6ff00.svg?style=flat-square)
 
@@ -67,7 +67,7 @@
 | `knowledge/` | 211 张蒸馏卡（**勿拆散**，须与 `SKILL.md` 同包） |
 | `INSTALL.md` | 安装说明（WorkBuddy 等宿主） |
 | `assets/` | 封面与发布包结构图 |
-| `docs/审查/` | 两轮 Meta-Critic / 多维对比作业稿 |
+| `docs/审查/` | 多轮交叉审查与改稿记录（Meta-Critic / 多维对比） |
 
 ## 怎么装
 
@@ -138,7 +138,7 @@ ln -s /path/to/qimen-dunjia-skill ~/.claude/skills/qimen-dunjia-skill
 ```text
 qimen-dunjia-skill/
 ├── README.md          # 本说明
-├── SKILL.md           # Skill 入口（改进版）
+├── SKILL.md           # Skill 入口
 ├── _Ontology.md       # 精简关系表
 ├── INSTALL.md         # 安装说明
 ├── assets/
@@ -151,7 +151,7 @@ qimen-dunjia-skill/
 
 ## 免责声明
 
-本 Skill 仅供学习与课程作业展示，内容蒸馏自《奇门遁甲笔记》课堂材料。**不是**命理从业资质、医疗、法律或投资建议。据此做出的任何判断，责任在使用者自己。
+本 Skill 仅供学习与研究使用，内容蒸馏自《奇门遁甲笔记》。**不是**命理从业资质、医疗、法律或投资建议。据此做出的任何判断，责任在使用者自己。
 
 ## 审查与迭代
 
@@ -160,4 +160,4 @@ qimen-dunjia-skill/
 
 ## 授权
 
-默认仅供个人学习与非商业课程作业展示。商业使用请自行确认原书与课程授权边界。
+默认采用 [CC BY-NC 4.0](LICENSE)：个人学习、研究与非商业再分享。商业使用请另行取得授权，并确认原书授权边界。
