@@ -69,20 +69,52 @@
 | `assets/` | 封面与发布包结构图 |
 | `docs/审查/` | 两轮 Meta-Critic / 多维对比作业稿 |
 
-## 怎么装（WorkBuddy）
+## 怎么装
+
+本 Skill 不是只给 WorkBuddy 用的。凡是能加载 `SKILL.md` 的 Agent / 宿主都可以装；下面按常见宿主写，你用哪个跟哪一段。
+
+### 通用原则
+
+把本仓库目录放到宿主的 skills 加载路径里，并保证这三者相对位置不变：
+
+- `SKILL.md`
+- `knowledge/`
+- `_Ontology.md`
+
+改完路径后，多数宿主需要**彻底退出再打开**才认得到新 Skill。
+
+### WorkBuddy
 
 1. 左侧「专家 · 技能 · 连接器」→「技能」→「+ 添加技能」
 2. 把本仓库打成的 zip（或本目录打包）拖进弹窗
-3. **完全退出** WorkBuddy 再打开（托盘右键退出；只关窗口不算）
+3. 完全退出 WorkBuddy 再打开（托盘右键退出；只关窗口不算）
 4. 用上面「上手三步」验证
 
-其他宿主：把本目录放到该宿主的 skills 加载路径，保证 `SKILL.md` 与 `knowledge/`、`_Ontology.md` 相对位置不变。
+### Claude Code
 
-**三条坑：**
+任选其一：
 
-1. `knowledge/` 不能拆；拆了技能变空壳。
-2. 不要改 `SKILL.md` 里的 `name: qimen-dunjia`。
-3. 必须彻底重启进程，否则扫不出新技能。
+```bash
+# 方式 A：克隆到 Claude Code 可加载的 skills 目录（路径以你本机配置为准）
+git clone https://github.com/Fenghuang-huoyan/qimen-dunjia-skill.git ~/.claude/skills/qimen-dunjia-skill
+```
+
+```bash
+# 方式 B：已有目录时，软链过去
+ln -s /path/to/qimen-dunjia-skill ~/.claude/skills/qimen-dunjia-skill
+```
+
+重启 Claude Code 会话后，直接问「空亡是什么」做验证。
+
+### Codex / 其他支持 Skills 的 Agent
+
+1. `git clone https://github.com/Fenghuang-huoyan/qimen-dunjia-skill.git`
+2. 将整个目录放到该宿主文档标明的 skills 路径（名称可能是 `skills/`、`.agents/skills` 等）
+3. 确认 `SKILL.md`、`knowledge/`、`_Ontology.md` 仍在同一层
+4. 重启宿主后用「上手三步」验证
+
+更细的安装说明（含常见坑）见 [`INSTALL.md`](INSTALL.md)。
+
 
 ## 关系层四条硬规矩
 
