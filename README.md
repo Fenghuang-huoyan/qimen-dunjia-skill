@@ -158,3 +158,5 @@ qimen-dunjia-skill/
 ## 授权
 
 默认采用 [CC BY-NC 4.0](LICENSE)：个人学习、研究与非商业再分享。商业使用请另行取得授权，并确认原书授权边界。
+
+<!-- release-meta: v1.0.0 -->

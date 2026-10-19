@@ -105,3 +105,5 @@
 - **Pass/Fail：** 交作业用 → **有条件通过**：今晚可带着「已完成跨 Agent Meta-Critic 第一轮 + 基线分 + 改进稿」交差；**合并改进版进 zip 再公开 GitHub 更稳**。  
 - **勿混：** 此前 Ontology Q1–Q9／S1–S6 评审 ≠ 本轮；本轮只审 Skill 入口。  
 - **下一轮：** 改完把新 `SKILL.md` 丢回来，用同一套 Meta-Critic + 五维对比收敛。
+
+<!-- release-meta: v1.0.0 -->
