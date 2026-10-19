@@ -1,3 +1,6 @@
+![Version](https://img.shields.io/badge/version-1.0.0-2e6b4f.svg?style=flat-square)
+![License](https://img.shields.io/badge/license-CC%20BY--NC%204.0-c6ff00.svg?style=flat-square)
+![Cards](https://img.shields.io/badge/knowledge%20cards-211-2e6b4f.svg?style=flat-square)
 # 奇门遁甲 Skill（带精简 Ontology 底座）
 
 ![封面](assets/banner.jpg)
