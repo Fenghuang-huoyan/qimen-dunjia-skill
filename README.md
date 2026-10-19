@@ -1,15 +1,12 @@
-![Version](https://img.shields.io/badge/version-1.0.0-2e6b4f.svg?style=flat-square)
-![License](https://img.shields.io/badge/license-CC%20BY--NC%204.0-c6ff00.svg?style=flat-square)
-![Cards](https://img.shields.io/badge/knowledge%20cards-211-2e6b4f.svg?style=flat-square)
 # 奇门遁甲 Skill（带精简 Ontology 底座）
 
 ![封面](assets/banner.jpg)
 
 > 把《奇门遁甲笔记》蒸馏成 **211 张知识卡**，再用一份 **关系规则表（Ontology）** 把卡与卡之间怎么挂、起断局按什么顺序，写清楚。装进支持 Skills 的 Agent 后，可查概念、可跟步骤、跨卡问题先读关系层。
 
-![License](https://img.shields.io/badge/license-CC%20BY--NC%204.0-lightgrey.svg?style=flat-square)
+![Version](https://img.shields.io/badge/version-1.0.0-2e6b4f.svg?style=flat-square)
+![License](https://img.shields.io/badge/license-CC%20BY--NC%204.0-c6ff00.svg?style=flat-square)
 ![Cards](https://img.shields.io/badge/knowledge%20cards-211-2e6b4f.svg?style=flat-square)
-![Base](https://img.shields.io/badge/Ontology-精简底座-c6ff00.svg?style=flat-square)
 
 **支持：WorkBuddy、Claude Code、Codex，以及其他能加载 `SKILL.md` 的 Agent。**
 
@@ -61,7 +58,6 @@
 ## 包里有什么
 
 ![包结构](assets/structure.jpg)
-
 
 | 路径 | 作用 |
 | --- | --- |
@@ -118,7 +114,6 @@ ln -s /path/to/qimen-dunjia-skill ~/.claude/skills/qimen-dunjia-skill
 
 更细的安装说明（含常见坑）见 [`INSTALL.md`](INSTALL.md)。
 
-
 ## 关系层四条硬规矩
 
 1. **推断 ≠ 原文**：§4.4 案例归属标「推断挂接」的，引用必须说明是推断。
@@ -159,7 +154,6 @@ qimen-dunjia-skill/
 ## 审查与迭代
 
 本 Skill 经过多轮交叉审查与改稿后发布。过程材料（Meta-Critic、多维对比）放在 `docs/审查/`，方便查阅改进依据；日常使用直接看 `SKILL.md`、`_Ontology.md` 与 `knowledge/` 即可。
-
 
 ## 授权
 
